@@ -1,0 +1,4 @@
+<tr *ngFor="let d of data">
+  <td>{{ (d | async)?.name }}</td>
+  <td>{{ (d | async)?.timer }}</td>
+</tr>
